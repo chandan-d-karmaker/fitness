@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Fitness</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+
 </head>
-<body>
-    
+
+<body class="inter-font">
+
+    <header class="bg-linear-to-b from-[#111111] to-[#414141] relative">
+        <nav class="max-w-[1060px] mx-auto flex justify-between items-center pt-16 mb-24">
+
+            <!-- icon -->
+            <h3 class="text-[#E6533C] font-extrabold text-4xl italic">Fitness</h3>
+
+            <!-- menu -->
+            <ul class="flex gap-7 px-1 py-2 border-[#FFFFFF1A] border rounded-4xl text-white text-[18px] font-normal">
+                <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">Home</a></li>
+                <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">Service</a></li>
+                <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">Contact</a></li>
+                <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- banner section -->
+        <div class="flex max-w-[1060px] mx-auto justify-between">
+
+            <!-- banner info -->
+            <div class="max-w-[520px] flex flex-col gap-7">
+                <h3 class="text-7xl text-white font-black leading-[120%]">Get body in shape & stay healthy</h3>
+                <p class="text-[#FFFFFF80] text-[1rem] leading-[120%] tracking-wide ">A huge selection of health and
+                    fitness content, healthy recipes and transformation stories to help
+                    you get fit and stay fit!</p>
+
+                <!-- button -->
+                <div class="flex gap-3.5">
+                    <button class="px-10 py-4 rounded-4xl bg-[#E6533C] text-[18px] text-white font-semibold">Join Club
+                        Now!</button>
+                    <button
+                        class="px-10 py-4 rounded-4xl bg-transparent border border-white text-[18px] text-white font-semibold">Download
+                        App</button>
+                </div>
+            </div>
+
+            <!-- banner image -->
+            <div class="relative">
+                <img src="./images/Images 2.png" alt="">
+                <button
+                    class="flex items-center gap-4 px-6 py-4 bg-[#FFFFFF1A] border border-[#FFFFFF1A] rounded-xl absolute mt-[-150px] ml-[-100px]">
+                    <i class="fa-solid fa-circle" style="color: #d37536; scale: 180%;"></i>
+                    <div class="flex flex-col items-start">
+                        <h4 class="font-black text-4xl text-white">350+</h4>
+                        <p class="text-[#FFFFFFA6] text-[13px]">Video tutorial</p>
+                    </div>
+                </button>
+                <button
+                    class="flex items-center gap-4 px-6 py-4 bg-[#FFFFFF1A] border border-[#FFFFFF1A] rounded-xl absolute mt-[-450px] ml-[200px]">
+                    <div class="flex flex-col items-start">
+                        <h4 class="font-black text-4xl text-white">500+</h4>
+                        <p class="text-[#FFFFFFA6] text-[13px]">Free Workout Video</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
 </body>
+
 </html>
