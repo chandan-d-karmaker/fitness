@@ -36,18 +36,19 @@
 
 
         <!-- banner section -->
-        <div class="flex max-w-[1060px] mx-auto justify-between">
+        <section class="lg:w-4/5 mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-32 items-center mx-auto justify-between md:flex-row">
 
             <!-- banner info -->
-            <div class="max-w-[520px] flex flex-col gap-7">
-                <h3 class="text-7xl text-white font-black leading-[120%]">Get body in shape & stay healthy</h3>
+            <div class="w-4/5 mx-auto flex flex-col gap-7 md:max-w-[520px]">
+                <h3 class="text-4xl md:text-7xl text-white font-black leading-[120%]">Get body in shape & stay healthy</h3>
                 <p class="text-[#FFFFFF80] text-[1rem] leading-[120%] tracking-wide ">A huge selection of health and
                     fitness content, healthy recipes and transformation stories to help
                     you get fit and stay fit!</p>
 
                 <!-- button -->
                 <div class="flex gap-3.5">
-                    <button class="px-10 py-4 rounded-4xl bg-[#E6533C] text-[18px] text-white font-semibold">Join Club
+                    <button class="md:px-10 py-4 rounded-4xl bg-[#E6533C] text-[18px] text-white font-semibold">Join Club
                         Now!</button>
                     <button
                         class="px-10 py-4 rounded-4xl bg-transparent border border-white text-[18px] text-white font-semibold">Download
@@ -57,7 +58,9 @@
 
             <!-- banner image -->
             <div class="relative">
-                <img src="./images/Images 2.png" alt="">
+                <div class="flex justify-center lg:justify-end">
+                    <img src="./images/Images 2.png" alt="">
+                </div>
                 <button
                     class="flex items-center gap-4 px-6 py-4 bg-[#FFFFFF1A] border border-[#FFFFFF1A] rounded-xl absolute mt-[-150px] ml-[-100px]">
                     <i class="fa-solid fa-circle" style="color: #d37536; scale: 180%;"></i>
@@ -75,6 +78,7 @@
                 </button>
             </div>
         </div>
+        </section>
     </header>
 
     <main class="bg-black pb-[88px]">
