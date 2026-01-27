@@ -16,19 +16,24 @@
 <body class="inter-font">
 
     <header class="bg-linear-to-b from-[#111111] to-[#414141] relative">
-        <nav class="max-w-[1060px] mx-auto flex justify-between items-center pt-16 mb-24">
 
+        <!-- for desktop -->
+        <nav class="flex w-4/5 mx-auto md:flex justify-between items-center pt-16 mb-24">
             <!-- icon -->
             <h3 class="text-[#E6533C] font-extrabold text-4xl italic">Fitness</h3>
 
             <!-- menu -->
-            <ul class="flex gap-7 px-1 py-2 border-[#FFFFFF1A] border rounded-4xl text-white text-[18px] font-normal">
+            <ul class="hidden md:flex gap-7 px-1 py-2 border-[#FFFFFF1A] border rounded-4xl text-white text-[18px] font-normal">
                 <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">Home</a></li>
                 <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">Service</a></li>
                 <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">Contact</a></li>
                 <li><a href="" class="hover:bg-[#E6533C] px-5 py-2 rounded-4xl font-semibold">About</a></li>
             </ul>
+
+            <!-- for mobile -->
+             <img src="./images/hamMenu.png" alt="" class="md:hidden ">
         </nav>
+
 
         <!-- banner section -->
         <div class="flex max-w-[1060px] mx-auto justify-between">
